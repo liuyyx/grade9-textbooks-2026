@@ -10,16 +10,25 @@
 
 | 科目 | 版本 | 页数 | 体积 | 文件 |
 |---|---|---|---|---|
-| 语文 | 人教版 | 164 | 102 MB | `2026秋九上语文电子教材_人教版.pdf` |
-| 数学 | 人教版 | 182 | 101 MB | `2026秋九上数学电子教材_人教版.pdf` |
-| 数学 | 北师大版 | 184 | 104 MB | `2026秋九上数学电子教材_北师版.pdf` |
-| 数学 | 湘教版 | 136 | 108 MB | `2026秋九上数学电子教材_湘教版.pdf` |
-| 数学 | 冀教版 | 208 | 284 MB | `2026秋九上数学电子教材_冀教版.pdf` |
-| 英语 | 人教版 | 140 | 132 MB | `2026秋九上英语电子教材_人教版.pdf` |
-| 道德与法治 | 人教版 | 111 | 65 MB | `2026秋九上道法电子教材_人教版.pdf` |
-| 历史 | 人教版 | 131 | 111 MB | `2026秋九上历史电子教材_人教版.pdf` |
+| 语文 | 人教版 | 164 | 101 MB | `chinese_g9_renjiao.pdf` |
+| 数学 | 人教版 | 182 | 100 MB | `math_g9_renjiao.pdf` |
+| 数学 | 北师大版 | 184 | 103 MB | `math_g9_beishida.pdf` |
+| 数学 | 湘教版 | 136 | 107 MB | `math_g9_xiangjiao.pdf` |
+| 数学 | 冀教版 | 208 | 284 MB | `math_g9_jijiao.pdf` |
+| 英语 | 人教版 | 140 | 132 MB | `english_g9_renjiao.pdf` |
+| 道德与法治 | 人教版 | 111 | 64 MB | `politics_g9_renjiao.pdf` |
+| 历史 | 人教版 | 131 | 110 MB | `history_g9_renjiao.pdf` |
 
-合计 **1003 MB / 8 本**。
+合计 **1001 MB / 8 本**。
+
+一键下载（Linux / macOS）：
+
+```bash
+for f in chinese_g9_renjiao math_g9_renjiao math_g9_beishida math_g9_xiangjiao \
+         math_g9_jijiao english_g9_renjiao politics_g9_renjiao history_g9_renjiao; do
+  curl -LO "https://github.com/liuyyx/grade9-textbooks-2026/releases/download/v2026.1/$f.pdf"
+done
+```
 
 数学之所以有四套，是因为各地教材版本不同——人教版最通用，北师大版次之，湘教（湖南）、冀教（河北）为地方版本。按你所在地区选用。
 
